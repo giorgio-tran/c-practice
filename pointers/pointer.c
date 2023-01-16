@@ -10,5 +10,6 @@ int main() {
   printf("Memory address of a: %p\n", pa);
   printf("The value of a is: %i\n", *pa);
   printf("Testing int**: %p\n", *ppa);
+  printf("Testin **ppa: %i\n", **ppa);
   return 0;
 }
